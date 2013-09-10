@@ -1,0 +1,26 @@
+@import "variables";
+
+@font-face{
+    font-family:'Proxima Nova';
+    src: url('/fonts/ProximaNova-Reg-webfont.woff') format("woff");
+}
+
+body {
+    font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+}
+
+nav {
+    font-family: "Proxima Nova";
+    line-height: $nav-height;
+    .title {
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .navigator {
+        font-size: 14px;
+    }
+}
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,228 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 7, ../sass/layout.scss */
+  .container {
+    width: 1200px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  /* line 13, ../sass/layout.scss */
+  .container {
+    width: 1000px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 19, ../sass/layout.scss */
+  nav {
+    display: none;
+  }
+
+  /* line 22, ../sass/layout.scss */
+  .container {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+/* line 28, ../sass/layout.scss */
+nav {
+  height: 45px;
+  position: relative;
+}
+/* line 31, ../sass/layout.scss */
+nav a {
+  display: block;
+  height: 100%;
+  padding: 0 15px;
+}
+/* line 36, ../sass/layout.scss */
+nav .title {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+/* line 39, ../sass/layout.scss */
+nav .navigators {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0 20px;
+}
+/* line 44, ../sass/layout.scss */
+nav .navigator {
+  float: left;
+}
+
+/* line 49, ../sass/layout.scss */
+.container {
+  margin: 20px auto;
+}
+
+/* line 53, ../sass/layout.scss */
+footer {
+  position: relative;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("/fonts/ProximaNova-Reg-webfont.woff") format("woff");
+}
+
+/* line 8, ../sass/typography.scss */
+body {
+  font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+}
+
+/* line 12, ../sass/typography.scss */
+nav {
+  font-family: "Proxima Nova";
+  line-height: 45px;
+}
+/* line 15, ../sass/typography.scss */
+nav .title {
+  font-size: 19px;
+  font-weight: bold;
+}
+/* line 19, ../sass/typography.scss */
+nav .navigator {
+  font-size: 14px;
+}
+
+/* line 24, ../sass/typography.scss */
+footer {
+  text-align: center;
+}
+
+/* line 5, ../sass/style.scss */
+nav a {
+  color: #ddd;
+  text-decoration: none;
+}
+/* line 10, ../sass/style.scss */
+nav .title a {
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  color: #dddddd;
+}
+/* line 24, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+nav .title a:hover {
+  color: #cccccc;
+}
+/* line 16, ../sass/style.scss */
+nav .navigator a {
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  color: #dddddd;
+}
+/* line 24, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+nav .navigator a:hover {
+  color: #999999;
+}
+
+/* line 23, ../sass/style.scss */
+.container {
+  color: #333;
+}
+/* line 25, ../sass/style.scss */
+.container a {
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  color: #0c70d0;
+}
+/* line 24, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.container a:hover {
+  color: #2490f5;
+}
+
+/* line 31, ../sass/style.scss */
+footer {
+  color: #999;
+}
+/* line 33, ../sass/style.scss */
+footer a {
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  color: #999999;
+}
+/* line 24, ../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+footer a:hover {
+  color: #2490f5;
+}

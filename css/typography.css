@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("/fonts/ProximaNova-Reg-webfont.woff") format("woff");
+}
+
+/* line 8, ../sass/typography.scss */
+body {
+  font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+}
+
+/* line 12, ../sass/typography.scss */
+nav {
+  font-family: "Proxima Nova";
+  line-height: 45px;
+}
+/* line 15, ../sass/typography.scss */
+nav .title {
+  font-size: 19px;
+  font-weight: bold;
+}
+/* line 19, ../sass/typography.scss */
+nav .navigator {
+  font-size: 14px;
+}
+
+/* line 24, ../sass/typography.scss */
+footer {
+  text-align: center;
+}

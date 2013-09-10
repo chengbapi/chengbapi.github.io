@@ -1,0 +1,56 @@
+@import "compass/css3";
+@import "variables";
+
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    nav {
+        display: none;
+    }
+    .container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+nav {
+    height: $nav-height;
+    position: relative;
+    a {
+        display: block;
+        height: 100%;
+        padding: 0 15px;
+    }
+    .title {
+        @include inline-block;
+    }
+    .navigators {
+        position: absolute;
+        top: 0; right: 0;
+        margin: 0 20px;
+    }
+    .navigator {
+        float: left;
+    }
+}
+
+.container {
+    margin: 20px auto;
+}
+
+footer {
+    position: relative;
+}
+

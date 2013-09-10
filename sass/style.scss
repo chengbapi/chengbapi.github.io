@@ -1,0 +1,37 @@
+@import "compass/css3";
+@import "compass/typography";
+
+nav {
+    a {
+        color: #ddd;
+        text-decoration: none;
+    }
+    .title {
+        a {
+            @include transition(all, .3s);
+            @include link-colors(#ddd, #ccc);
+        }
+    }
+    .navigator {
+        a {
+            @include transition(all, .3s);
+            @include link-colors(#ddd, #999);
+        }
+    }
+}
+
+.container {
+    color: #333;
+    a {
+        @include transition(all, .3s);
+        @include link-colors(#0c70d0, #2490f5);
+    }
+}
+
+footer {
+    color: #999;
+    a {
+        @include transition(all, .3s);
+        @include link-colors(#999, #2490f5);
+    }
+}
