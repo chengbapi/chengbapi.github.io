@@ -133,6 +133,13 @@ footer {
   position: relative;
 }
 
+/* line 57, ../sass/layout.scss */
+#background-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 @font-face {
   font-family: 'Proxima Nova';
   src: url("/fonts/ProximaNova-Reg-webfont.woff") format("woff");

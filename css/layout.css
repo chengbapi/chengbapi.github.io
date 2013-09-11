@@ -63,3 +63,10 @@ nav .navigator {
 footer {
   position: relative;
 }
+
+/* line 57, ../sass/layout.scss */
+#background-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
